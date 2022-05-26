@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ 
+</head>
+<body>
+<div class="futer" id="home">Wizard&Lizard</div>
+<img class="fonimg" src="images/1111.png">
+
+  
+  <!--Меню-->
+  <nav class="menu">
+    <ul>
+      <li><a href="#home">Главная</a></li>
+      <li><a href="#project">О проекте</a></li>
+      <li><a href="#contact">О нас</a></li>
+      <li><a href="#call">Обратная связь</a></li>
+    </ul>
+  </nav>
+  <!--Таймер-->
+  <div class="fon">
+    <div class="timer">
+      <h1 class="countdown-title">The start is...</h1>
+      <div id="countdown" class="countdown">
+        <div class="countdown-number">
+          <span class="days countdown-time"></span>
+          <span class="countdown-text">Дней</span>
+        </div>
+        <div class="countdown-number">
+          <span class="hours countdown-time"></span>
+          <span class="countdown-text">Часов</span>
+        </div>
+        <div class="countdown-number">
+          <span class="minutes countdown-time"></span>
+          <span class="countdown-text">Минуты</span>
+        </div>
+        <div class="countdown-number">
+          <span class="seconds countdown-time"></span>
+          <span class="countdown-text">Секундны</span>
+        </div>
+      </div>
+      <img src="images/logo.svg">
+      <script src="cod.js"></script>
+  </div>
+  </div>
+  <!--О проекте-->
+  <div id="project" class="project">
+    <h1 data-aos="zoom-in">О проекте</h1>
+    <h2 data-aos="fade-up" data-aos-duration="3000">То, что вы так долго ждали</h2>
+    <script src="opar.js"></script>
+  </div>
+  <!--Компактнее-->
+  <div class="compact">
+    <h1 data-aos="fade-left">Копмактнее</h1>   
+    <div data-aos="fade-right" class="text">
+      <p align="justify">Мы смогли сохранить главное преимущество персонального компьютера в корпусе ноутбука</p>
+    </div> 
+  </div>
+  <!--Легче-->
+  <div class="air">
+    <h1 data-aos="fade-left">Легче</h1>
+    <div data-aos="fade-right" class="text">
+      <p align="justify">Не теряя мощности, мы смогли сохранить  вес обычного  игрового ноутбука</p>
+    </div>
+  </div>
+  <!--Мощнеее-->
+  <div class="power">
+    <h1 data-aos="fade-left">Мощнее</h1>
+    <div data-aos="fade-right" class="text">
+      <p align="justify">Благодаря возможности замены комплектующих, мощность нашего ноутбука будет выше чем у уже собранных ноутбуков</p>
+    </div>
+  </div>
+
+  
+  <!--О нас-->
+  <div id="contact" class="contact">
+    <h1>О нас</h1>
+    <img class="contactimg" src="images/1100.png">
+    <div class="s">
+    <div class="block1"><img class="ymu" src="images/Nikita.jpg">
+      <div class="block__text">
+        <h3 class="ff">Системный администратор</h3>
+        <p class="text1"><i>Тарасов Никита</i></p>
+      </div>
+    </div>
+    <div class="block2"><img class="ymu" src="images/rustam.jpg">
+      <div class="block__text">
+        <h3 class="ff">Руководитель</h3>
+        <p class="text1"><i>Маттиев Рустам</i></p>
+      </div>
+    </div>
+  <div class="block3"><img class="ymu" src="images/Kiril.jpg">
+    <div class="block__text">
+      <h3 class="ff">Редактор</h3>
+      <p class="text1"><i>Баксараев Кирилл</i></p>
+    </div>
+  </div>
+  <div class="block4"><img class="ymu" src="images/dima.jpg">
+    <div class="block__text">
+      <h3 class="ff">Технический эксперт</h3>
+      <p class="text1"><i>Дмитрий Лопанцев</i></p>
+    </div>
+  </div>
+    </div>
+  </div>
+</div>
+  <!--Обратная свзяь-->
+  <div id="call" class="call">
+    <h1>Обратная связь</h1>
+    <img src="images/chica-Rosetta-1.png">
+    <div class="forma">
+      <div class="form-at">
+          <div class="validate-input-at w-50">
+              <input class="input-at" type="text" name="name-at" placeholder="Ваше имя" />
+              <span class="focus-input-at"></span>
+          </div>
+          <div class="validate-input-at w-50">
+              <input class="input-at" type="text" name="email-at" placeholder="Ваш телефон или email" />
+              <span class="focus-input-at"></span>
+          </div>
+          <div class="validate-input-at">
+              <textarea class="input-at" name="message-at" placeholder="Ваше сообщение"></textarea>
+              <span class="focus-input-at"></span>
+          </div>          
+          <button id="submit-at" class="form-at-btn">Отправить</button>
+      </div>
+  </div>
+    <div class="sss">
+      2022
+    </div>
+  </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  </body>
+</html>
