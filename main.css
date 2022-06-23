@@ -136,7 +136,7 @@ body {
 }
 .compact h1{
   text-align: center;
-  font-size: 90px;
+  font-size: 80px;
   z-index: 1;
 }
 .text{
@@ -163,7 +163,7 @@ body {
 }
 .air h1{
   text-align: center;
-  font-size: 90px;
+  font-size: 80px;
   z-index: 1;
 }
 /*Мощнее*/
@@ -179,7 +179,7 @@ body {
 }
 .power h1{
   text-align: center;
-  font-size: 90px;
+  font-size: 80px;
   z-index: 1;
 }
 
@@ -195,7 +195,7 @@ body {
 }
 .power1 h1{
   text-align: center;
-  font-size: 90px;
+  font-size: 80px;
   z-index: 1;
 }
 /*О нас*/
