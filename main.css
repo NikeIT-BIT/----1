@@ -1,12 +1,15 @@
 body {
   font-family: Arial Black;
+  background-image: url(images/1100.png);
+  background-attachment:fixed;
+  
   }
 .fonimg{
   position: absolute;
   top: 0px;
   left: 0%;
   width: 100%;
-  height: 110%;
+  height: 100%;
 }
   
 .futer{
@@ -103,7 +106,7 @@ body {
   left: 0%;
   width: 100%;
   height: 100%;
-  background-color: #550044;
+  /* background-color: #550044; */
   position: absolute;
   color: #FFF;
 }
@@ -126,7 +129,7 @@ body {
   left: 0%;
   width: 100%;
   height: 100%;
-  background-color: #550044;
+  /* background-color: #550044; */
   position: absolute;
   color: #FFF;
 }
@@ -137,13 +140,14 @@ body {
 }
 .text{
   white-space: normal;
-  font-size: 80px;
+  /* font-size: 80px; */
+  font-size: calc(40px + 30 * (100vw / 1920) );
   padding-left: 2%;
   padding-right: 2%;
   text-indent: 200px;
-  -moz-hyphens: auto;
+  /* -moz-hyphens: auto;
   -webkit-hyphens: auto;
-  -ms-hyphens: auto;
+  -ms-hyphens: auto; */
 }
 /*Легче*/
 .air{
@@ -152,7 +156,7 @@ body {
   left: 0%;
   width: 100%;
   height: 100%;
-  background-color: #550044;
+  /* background-color: #550044; */
   position: absolute;
   color: #FFF;
 }
@@ -168,7 +172,7 @@ body {
   left: 0%;
   width: 100%;
   height: 100%;
-  background-color: #550044;
+  /* background-color: #550044; */
   position: absolute;
   color: #FFF;
 }
@@ -185,6 +189,7 @@ body {
   width: 100%;
   height: 100%;
   position: absolute;
+  background-color: #550044;
 }
 
 .contact h1{
@@ -233,8 +238,8 @@ body {
   display: inline;
   position: absolute;
   left: 0;
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   background-color: #343434;
   opacity: 0;
   -webkit-transition: all 0.7s ease-in-out;
@@ -246,8 +251,8 @@ body {
 .ymu{
   display: inline;
   position: relative;
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
 }
 .block1:hover .block__text {
   opacity: 0.9;
